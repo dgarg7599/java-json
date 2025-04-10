@@ -1,6 +1,7 @@
 package com.bridgelabz.practiceproblems.createobject;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.json.JSONObject;
 
 public class ObjectCreation {
     public static void main(String[] args) {
@@ -16,5 +17,13 @@ public class ObjectCreation {
         }catch(Exception e){
             e.printStackTrace();
         }
+
+        // Using org.json
+//        JSONObject jsonObject = new JSONObject();
+//        jsonObject.put("name", "Alice");
+//        jsonObject.put("age", 23);
+//        jsonObject.put("subjects", new String[]{"maths", "english", "CS"});
+//        System.out.println(jsonObject);
+
     }
 }
