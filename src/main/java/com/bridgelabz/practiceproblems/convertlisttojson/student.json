@@ -1,0 +1,9 @@
+[ {
+  "name" : "Divyansh",
+  "age" : 20,
+  "subjects" : [ "Java", "Spring" ]
+}, {
+  "name" : "Krishna",
+  "age" : 21,
+  "subjects" : [ "Python", "Java" ]
+} ]
